@@ -13,6 +13,9 @@ int main(){
         sum += a;
         count += 1;
     }
+    if (count == 0){
+        count = 1;
+    }
     float average = sum / count;
     printf("%d \n" , sum);
     printf("%d \n"  , count);
